@@ -449,4 +449,65 @@
 #tech_stack_list = tech_stack.split()
 #print(tech_stack_list)
 
+#old_top_movies = "The Power of the Dog - Trapped - Tenet"
+#new_top_movies = old_top_movies.replace("Trapped", "Moonfall")
+#print(new_top_movies)
+
+#age = int(input("Введите свой возраст:"))
+#print("Взрослый" if age > 20 else "Малолетка")
+
+#websites = ["mimo.com", "coding.com", "food.org"]
+#def add_https(site):
+#    return "https://" + site
+#auto_add = [add_https(site) for site in websites]
+#print(auto_add)
+
+#product = {
+#    'name' : 'pencil',
+#    'type' : "stationery",
+#    'price' : 1.99,
+#    'color' : 'blue',
+#    'availability' : False
+#}
+#del product['color']
+#print(product)
+
+#a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+#for elem in a:
+#    if elem < 5:
+#        print(elem)
+
+#class Elevator:
+#    def __init__(self):
+#        self.current_floor = 0
+
+#    def go_to_floor(self, floor):
+#        if self.current_floor == floor:
+#            print(f"Elevator is in floor {floor}")
+#        else:
+#            print(f"Going to floor {floor}")
+#            self.current_floor = floor
+
+#elevator = Elevator()
+#elevator.go_to_floor(3)
+#elevator.go_to_floor(3)
+
+#class Castle:
+#    def description(self):
+#        return ("This is a generic castle.")
+#class StoneCastle(Castle):
+#    def description(self):
+#        return "This is a stone castle."
+#class WoodCastle(Castle):
+#    def description(self):
+#        return "This is a wood castle."
+
+
+#stone_castle = StoneCastle()
+#stone_castle_description = stone_castle.description()
+#print(stone_castle_description)
+
+#wood_castle = WoodCastle()
+#wood_castle_description = wood_castle.description()
+#print(wood_castle_description)
 
